@@ -1,0 +1,54 @@
+.header {
+    overflow: hidden;
+    background-color: #1e3d59;
+}
+
+.header p {
+    float: left;
+    color: #ff6e40;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 3px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.inputField {
+    width: 40% !important;
+    padding: 1px;
+    margin-top: 16px !important;
+    margin-right: 6px;
+    border: none;
+    font-size: 17px;
+    background-color: #f5f0e1;
+}
+
+.header p.logo {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #ff6e40;
+}
+
+.header p.active {
+    background-color: #ff6e40;
+    color: #1e3d59;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header p {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
